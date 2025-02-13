@@ -1,0 +1,62 @@
+[
+  {
+    "id": 1,
+    "title": "The Role of Sleep in Mental Health",
+    "description": "Sleep is crucial for emotional regulation and brain detoxification.",
+    "link": "https://www.sleepfoundation.org/mental-health"
+  },
+  {
+    "id": 2,
+    "title": "How Exercise Improves Mental Health",
+    "description": "Regular exercise releases endorphins, reducing stress and anxiety.",
+    "link": "https://www.mentalhealth.org.uk/exercise-and-mental-health"
+  },
+  {
+    "id": 3,
+    "title": "The Impact of Nutrition on Mental Health",
+    "description": "A balanced diet supports brain function and emotional stability.",
+    "link": "https://www.healthline.com/nutrition/nutrition-and-mental-health"
+  },
+  {
+    "id": 4,
+    "title": "Mindfulness and Meditation for Mental Well-being",
+    "description": "Practicing mindfulness helps reduce anxiety and improve focus.",
+    "link": "https://www.headspace.com/mindfulness"
+  },
+  {
+    "id": 5,
+    "title": "Social Connections and Mental Health",
+    "description": "Strong social ties reduce loneliness and boost overall well-being.",
+    "link": "https://www.psychologytoday.com/us/basics/social-life"
+  },
+  {
+    "id": 6,
+    "title": "Managing Anxiety in Daily Life",
+    "description": "Learn effective techniques to manage anxiety and stress.",
+    "link": "https://www.anxietycanada.com/articles/how-to-manage-anxiety"
+  },
+  {
+    "id": 7,
+    "title": "Coping with Workplace Stress",
+    "description": "Strategies to handle stress and maintain productivity at work.",
+    "link": "https://www.helpguide.org/articles/stress/workplace-stress.htm"
+  },
+  {
+    "id": 8,
+    "title": "The Science of Happiness",
+    "description": "Discover the psychology behind happiness and well-being.",
+    "link": "https://www.scientificamerican.com/article/the-science-of-happiness"
+  },
+  {
+    "id": 9,
+    "title": "The Effects of Technology on Mental Health",
+    "description": "Understanding the impact of screen time and social media.",
+    "link": "https://www.ncbi.nlm.nih.gov/pmc/articles/PMC6023494"
+  },
+  {
+    "id": 10,
+    "title": "Overcoming Negative Thoughts",
+    "description": "Cognitive techniques to replace negative thinking patterns.",
+    "link": "https://www.psychologytools.com/articles/how-to-challenge-negative-thinking"
+  }
+]

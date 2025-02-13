@@ -1,0 +1,134 @@
+/* Global Styles */
+.resources-container {
+  font-family: "Poppins", sans-serif;
+  background-color: #f8f9fa;
+  color: #333;
+  padding: 40px 20px;
+  text-align: center;
+}
+
+/* Header */
+.resources-header h1 {
+  font-size: 2.5rem;
+  font-weight: bold;
+  margin-bottom: 10px;
+  animation: fadeIn 1.2s ease-in-out;
+}
+
+.resources-header p {
+  font-size: 1.2rem;
+  color: #555;
+  animation: slideUp 1s ease-in-out;
+}
+
+/* Category Sections */
+.resource-category {
+  margin-top: 40px;
+  padding: 20px;
+  background: white;
+  border-radius: 12px;
+  box-shadow: 0px 8px 20px rgba(0, 0, 0, 0.1);
+  transition: transform 0.3s ease-in-out;
+}
+
+.resource-category:hover {
+  transform: translateY(-5px);
+}
+
+/* Category Title */
+.category-title {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 10px;
+}
+
+.category-title h2 {
+  font-size: 1.8rem;
+  color: #007bff;
+}
+
+.category-icon {
+  font-size: 2rem;
+  color: #ff6b6b;
+}
+
+/* Resource Cards */
+.resources {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+  gap: 20px;
+  margin-top: 20px;
+}
+
+.resource-card {
+  background: #fff;
+  border-radius: 10px;
+  padding: 20px;
+  text-align: left;
+  box-shadow: 0px 4px 15px rgba(0, 0, 0, 0.1);
+  transition: all 0.3s ease-in-out;
+  transform: scale(1);
+}
+
+.resource-card:hover {
+  transform: scale(1.05);
+}
+
+.resource-card h3 {
+  font-size: 1.4rem;
+  margin-bottom: 8px;
+}
+
+.resource-card p {
+  font-size: 1rem;
+  color: #666;
+  margin-bottom: 10px;
+}
+
+.read-more {
+  display: inline-block;
+  text-decoration: none;
+  color: #007bff;
+  font-weight: bold;
+  transition: color 0.3s ease-in-out;
+}
+
+.read-more:hover {
+  color: #0056b3;
+}
+
+/* Footer */
+footer {
+  margin-top: 30px;
+  font-size: 0.9rem;
+  color: #777;
+}
+
+/* Animations */
+@keyframes fadeIn {
+  from { opacity: 0; transform: translateY(-20px); }
+  to { opacity: 1; transform: translateY(0); }
+}
+
+@keyframes slideUp {
+  from { opacity: 0; transform: translateY(20px); }
+  to { opacity: 1; transform: translateY(0); }
+}
+
+@keyframes bounce {
+  0%, 100% { transform: scale(1); }
+  50% { transform: scale(1.05); }
+}
+
+.fade-in {
+  animation: fadeIn 1.2s ease-in-out;
+}
+
+.slide-up {
+  animation: slideUp 1s ease-in-out;
+}
+
+.bounce {
+  animation: bounce 1.5s infinite;
+}
